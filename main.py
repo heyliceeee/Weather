@@ -15,3 +15,12 @@ def get_data_from_csv():
 
 data = get_data_from_csv()
 print(data)
+print(float(data["temp"].mean())) # average temperature
+
+# max value temperature
+max_temperature = float(data["temp"].max())
+print(max_temperature)
+
+# data who most max temperature
+temperatures = data["temp"]
+print(data[temperatures == max_temperature])
