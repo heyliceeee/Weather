@@ -1,42 +1,42 @@
 # 🌦️ Weather Data Analysis  
-Análise simples de dados meteorológicos usando Python e **pandas**.
+Simple weather data analysis using Python and **pandas**.
 
-## 📌 Objetivo  
-O projeto lê um ficheiro CSV com dados do tempo e extrai informações úteis através de operações básicas de análise de dados.
+## 📌 Objective  
+The project reads a CSV file containing weather data and extracts useful information through basic data‑analysis operations.
 
-Ideal para quem está a iniciar em **análise de dados** e quer praticar manipulação de tabelas com pandas.
-
----
-
-## 📁 Dados utilizados  
-O ficheiro **weather_data.csv** contém:
-
-- Dia da semana  
-- Temperatura em °C  
-- Condição meteorológica  
+Ideal for beginners in **data analysis** who want to practice working with tables using pandas.
 
 ---
 
-## 🔍 Funcionalidades
+## 📁 Data Used  
+The **weather_data.csv** file contains:
 
-### **1. Leitura do CSV**
-O programa carrega o dataset e transforma-o numa tabela estruturada para análise.  
-
-### **2. Temperatura média**
-Calcula a média semanal, permitindo perceber a tendência geral.
-
-### **3. Temperatura máxima**
-Identifica o valor mais alto registado e o dia correspondente.  
-
-### **4. Conversão Celsius → Fahrenheit**
+- Day of the week  
+- Temperature in °C  
+- Weather condition  
 
 ---
 
-## 🧠 Aprendizagens  
-Este projeto reforça conceitos essenciais:
+## 🔍 Features
 
-- Manipulação de ficheiros  
-- Estruturas tabulares com pandas  
-- Estatísticas básicas  
-- Filtragem condicional  
-- Conversão de valores
+### **1. CSV Reading**  
+The program loads the dataset and converts it into a structured table for analysis.
+
+### **2. Average Temperature**  
+Calculates the weekly average, helping identify the overall trend.
+
+### **3. Maximum Temperature**  
+Finds the highest recorded value and the corresponding day.
+
+### **4. Celsius → Fahrenheit Conversion**
+
+---
+
+## 🧠 Learning Outcomes  
+This project reinforces essential concepts:
+
+- File manipulation  
+- Tabular data structures with pandas  
+- Basic statistics  
+- Conditional filtering  
+- Value conversion  
